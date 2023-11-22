@@ -4,6 +4,7 @@ import RevenueChart from '../ui/dashboard/revenue-chart';
 
 export default async function Page() {
   const revenue = await fetchRevenue();
+
   return (
     <main>
       <h1 className={`${JetBrainsMono.className} mb-4 text-xl md:text-2xl`}>
